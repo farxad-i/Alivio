@@ -1,7 +1,6 @@
 :root {
-  --bg-color: #fff;
-  --text-accent-color: #828282;
-  --text-color: #000;
-  --accent-bg-color: #f6f6f6;
-  --font-family: "Roboto", sans-serif;
+  --lightgreen: #01996d;
+  --bg-green: #245852;
+  --bg-white: #fff;
+  --black: #424242;
 }

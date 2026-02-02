@@ -13,7 +13,11 @@
 }
 
 .first__header-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 0 52px 0;
 }
@@ -37,6 +41,8 @@
 }
 
 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 95px;
   height: 1100px;
@@ -48,6 +54,8 @@
   }
 
   .first__header-description {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0 0 52px 0;
   }
@@ -69,7 +77,10 @@
 
   .cards {
     gap: 50px;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: auto;
   }
@@ -90,6 +101,8 @@
   }
 
   .first__header-description {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0 0 20px 0;
   }
